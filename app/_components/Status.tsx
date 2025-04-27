@@ -8,7 +8,7 @@ import Link from "next/link";
 export const Status = () => {
     return <Section className="flex max-md:flex-col items-start gap-2 ">
         <Card className="flex-[2] flex flex-col gap-2 max-md:w-full p-4 ">
-            <p className="text-2xl   font-bold  text-muted-foreground py-4 pl-4">Mes Projets</p>
+            <p className="text-2xl   font-bold  text-muted-foreground py-4 pl-4">Mes Derniers Projets</p>
             <div className="flex flex-col gap-4">
                 {SideProjectList.map((project, index) => (
                     <SideProject 
@@ -48,49 +48,51 @@ export const Status = () => {
 export const SideProjectList = [
     {
         id: 1,
+        logo: ChevronsLeftRightEllipsis,
+        title: "Site reservation de voiture",
+        resume: "Site de location avec client angular et serveur laravel",
+        description: "Site de location de voitures réalisé avec Angular et Laravel. Ce projet à permis de combiné un serveur api REST en laravel et une interface utilisateur en angular. Avec la connexion et la gestion des données utilisateurs, des clients, des voitures et des reservations ,tout cela avec la gestion des rôles et des permissions du coté serveur mais aussi client. Mais aussi de l'utilisation de route, d'interception de requête et de gestion des erreurs et des tests utnitairs et linting sur le serveur avec de la doc swagger.",
+        url: "https://github.com/clement-markwitz/ROAD-CAR",
+        img: "/image/mv.png"
+    },
+    {
+        
+        id: 2,
         logo: BriefcaseBusiness,
         title: "Portfolio",
         resume: "Mon portfolio fait en next.js et tailwindcss",
         description: "Mon portfolio est développé avec Next.js, Tailwind CSS, et ShadCN/UI. J'ai utilisé Next.js pour sa gestion des pages dynamiques et la performance, Tailwind CSS pour un design réactif et personnalisé, et ShadCN/UI pour des composants d'interface élégants et modernes.",
-        url: "/Projects/1",
+        url: "https://github.com/clement-markwitz/portfolio",
         img: "/image/pf.png"
-    },
+    },  
     {
-        id: 2,
+        id: 3,
         logo: Bomb,
         title: "Bomberman",
         resume: "Jeu en 2D réaliser avec java en groupe de 4 personnes",
         description: "Jeu en 2D réalisé avec Java en groupe de 4 personnes. Nous avons travaillé ensemble sur la conception du jeu, la programmation des mécaniques et l'intégration des graphismes, en nous répartissant les différentes tâches pour mener à bien le projet.",
-        url: "/Projects/2",
+        url: "https://github.com/clement-markwitz/bomberman",
         img: "/image/bm.png"
     },
     {
-        id: 3,
+        id: 4,
         logo: ChartNetwork,
         title: "Maraton du web",
         resume: "Site réaliser en PHP avec Laravel , en dormant à L'IUT. ", 
         description: "Site réalisé en PHP avec le framework Laravel, développé durant mon séjour à l'IUT. Ce projet m'a permis de mettre en pratique mes compétences en développement web, notamment avec la gestion de bases de données, l'authentification des utilisateurs, et la création d'une architecture MVC (Model-View-Controller) efficace.",
-        url: "/Projects/3",
+        url: "https://github.com/clement-markwitz/marathon-du-web",
         img: "/image/mw.png"
     },
     {
-        id: 4,
+        id: 5,
         logo: SquarePercent,
         title: "Juste prix",
         resume: "Jeu semble à l'emission juste prix fait en python avec flask",
         description: "Jeu semblable à l'émission 'Le Juste Prix', développé en Python avec le framework Flask. Ce projet a permis de mettre en œuvre des fonctionnalités comme la gestion des sessions utilisateur, l'affichage dynamique des prix et des indices, ainsi que l'interaction avec une interface simple mais fonctionnelle pour offrir une expérience immersive.",
-        url: "/Projects/4",
+        url: "https://github.com/clement-markwitz/MSI-Ekip",
         img: "/image/js.png"
     },
-    {
-        id: 5,
-        logo: ChevronsLeftRightEllipsis,
-        title: "Site statique",
-        resume: "Site statique fait de vente de voitures en html et css",
-        description: "Site statique de vente de voitures réalisé en HTML et CSS. Ce projet a permis de créer une interface simple et responsive pour la présentation de différents modèles de voitures, avec une mise en page claire et attrayante, tout en mettant l'accent sur la simplicité et l'accessibilité.",
-        url: "/Projects/5",
-        img: "/image/mv.png"
-    },
+  
  
 ]
 

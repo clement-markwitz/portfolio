@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { Header } from "./_components/Header";
 import { Hero } from "./_components/Hero";
 import { Spacing } from "./_components/Spacing";
-import { C_V, Status } from "./_components/Status";
+import {  Status } from "./_components/Status";
 import { Skills } from "./_components/Skills";
 import { Footer } from "./_components/Footer";
 import { Contact } from "./_components/Contact";
