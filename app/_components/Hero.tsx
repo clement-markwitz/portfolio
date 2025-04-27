@@ -11,14 +11,14 @@ export const Hero = () => {
             <div className="flex-[3] flex flex-col gap-2">
                 <h2 className="text-4xl font-bold text-primary font-caption">Clement Markwitz</h2>
                 <h3 className="text-3xl font-caption">Développeur Web</h3>
-                <p className="text-base ">Je suis actuellement etudiant en but informatique à l'
+                <p className="text-base ">Je suis actuellement etudiant en but informatique à l&apos;
                     <Code className="item-center gap-1"> 
                         <Link href={"https://www.iut-lens.univ-artois.fr/"}>
                         IUT de Lens
                         </Link>
                     </Code>
                     . Mon objectif est de devenir un<Code>développeur</Code>  polyvalent capable de concevoir des solutions innovantes et adaptées aux besoins des utilisateurs.
-                     En dehors de mes études, je suis toujours curieux d'explorer de <Code>nouvelles technologies</Code> et de relever des défis techniques.
+                     En dehors de mes études, je suis toujours curieux d&apos;explorer de <Code>nouvelles technologies</Code> et de relever des défis techniques.
                 </p>
                     
             </div>  
