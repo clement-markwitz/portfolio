@@ -4,6 +4,7 @@ import { Section } from "./Section";
 import React from "react";
 import { Bomb, BriefcaseBusiness, ChartNetwork, ChevronsLeftRightEllipsis, LucideIcon, SquarePercent } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Status = () => {
     return <Section className="flex max-md:flex-col items-start gap-2 ">
@@ -168,7 +169,13 @@ const WorkProject = (props: WorkProps) => {
        <Link href={props.url} className="inline-flex items-center gap-2 hover:bg-muted hover:p-1 hover:rounded-md">
     
             <span className="bg-accent text-accent-foreground  rounded-xl">
-                <img src={props.image} className="w-6 h-6 m-2 object-contain"/>
+               <Image 
+                    src={props.image} 
+                    alt={props.title}
+                    width={24} 
+                    height={24}
+                    className="w-6 h-6 object-contain"
+                />
             </span>
             <div>
                 <div className="inline-flex items-center">
