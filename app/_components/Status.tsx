@@ -54,7 +54,7 @@ export const SideProjectList = [
         resume: "Site de location avec client angular et serveur laravel",
         description: "Site de location de voitures réalisé avec Angular et Laravel. Ce projet à permis de combiné un serveur api REST en laravel et une interface utilisateur en angular. Avec la connexion et la gestion des données utilisateurs, des clients, des voitures et des reservations ,tout cela avec la gestion des rôles et des permissions du coté serveur mais aussi client. Mais aussi de l'utilisation de route, d'interception de requête et de gestion des erreurs et des tests utnitairs et linting sur le serveur avec de la doc swagger.",
         url: "https://github.com/clement-markwitz/ROAD-CAR",
-        img: "/image/mv.png"
+        img: "/image/mv.webp"
     },
     {
         
@@ -64,7 +64,7 @@ export const SideProjectList = [
         resume: "Mon portfolio fait en next.js et tailwindcss",
         description: "Mon portfolio est développé avec Next.js, Tailwind CSS, et ShadCN/UI. J'ai utilisé Next.js pour sa gestion des pages dynamiques et la performance, Tailwind CSS pour un design réactif et personnalisé, et ShadCN/UI pour des composants d'interface élégants et modernes.",
         url: "https://github.com/clement-markwitz/portfolio",
-        img: "/image/pf.png"
+        img: "/image/pf.webp"
     },  
     {
         id: 3,
@@ -73,7 +73,7 @@ export const SideProjectList = [
         resume: "Jeu en 2D réaliser avec java en groupe de 4 personnes",
         description: "Jeu en 2D réalisé avec Java en groupe de 4 personnes. Nous avons travaillé ensemble sur la conception du jeu, la programmation des mécaniques et l'intégration des graphismes, en nous répartissant les différentes tâches pour mener à bien le projet.",
         url: "https://github.com/clement-markwitz/bomberman",
-        img: "/image/bm.png"
+        img: "/image/bm.webp"
     },
     {
         id: 4,
@@ -82,7 +82,7 @@ export const SideProjectList = [
         resume: "Site réaliser en PHP avec Laravel , en dormant à L'IUT. ", 
         description: "Site réalisé en PHP avec le framework Laravel, développé durant mon séjour à l'IUT. Ce projet m'a permis de mettre en pratique mes compétences en développement web, notamment avec la gestion de bases de données, l'authentification des utilisateurs, et la création d'une architecture MVC (Model-View-Controller) efficace.",
         url: "https://github.com/clement-markwitz/marathon-du-web",
-        img: "/image/mw.png"
+        img: "/image/mw.webp"
     },
     {
         id: 5,
@@ -91,7 +91,7 @@ export const SideProjectList = [
         resume: "Jeu semble à l'emission juste prix fait en python avec flask",
         description: "Jeu semblable à l'émission 'Le Juste Prix', développé en Python avec le framework Flask. Ce projet a permis de mettre en œuvre des fonctionnalités comme la gestion des sessions utilisateur, l'affichage dynamique des prix et des indices, ainsi que l'interaction avec une interface simple mais fonctionnelle pour offrir une expérience immersive.",
         url: "https://github.com/clement-markwitz/MSI-Ekip",
-        img: "/image/js.png"
+        img: "/image/js.webp"
     },
   
  

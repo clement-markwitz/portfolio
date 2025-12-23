@@ -41,7 +41,7 @@ export const Hero = () => {
       <div className="flex-[1] m-auto">
         <Image
           className="rounded-full object-cover"
-          src="https://media.licdn.com/dms/image/v2/D4E35AQGpF9BeRKYJiA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1731185024081?e=1746295200&v=beta&t=frMPWfvIataHdVBu5_Ny1OIpd0bz4Oypwq_fgwj21vo"
+          src="/image/profile.webp"
           alt="Clement Markwitz"
           width={192} 
           height={192}
